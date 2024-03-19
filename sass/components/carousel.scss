@@ -1,0 +1,11 @@
+.carousel {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+
+    &::after {
+        content: "";
+        flex: 0 0 1rem;
+    }
+
+}

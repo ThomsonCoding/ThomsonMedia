@@ -7,4 +7,44 @@
         background-position: right;
         max-height: 50rem;
     }
+
+    .locations {
+        .carousel {
+            margin-left: 2rem;
+            gap: 3rem;
+
+            #thailand {
+                background-image: url(../../img/thailand-homeimage.jpeg);
+            }
+
+            #laos {
+                background-image: url(../../img/laos-homeimage.jpeg);
+            }
+
+            #aus {
+                background-image: url(../../img/aus-homeimage.jpeg);
+            }
+
+            &--item {
+                border-radius: 25%;
+                height: 55rem;
+                min-width: 35rem;
+                max-width: 95%;
+                width: 400rem;
+                border-radius: 1.5rem;
+                background-size: cover;  
+                background-position: center; 
+                background-repeat: no-repeat;  
+            }
+
+        }
+
+    }
+
+    .equipment {
+        img {
+            height: 20rem;
+            width: auto;
+        }
+    }
 }

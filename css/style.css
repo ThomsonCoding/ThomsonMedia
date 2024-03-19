@@ -68,6 +68,16 @@ body {
   margin: 2.5rem 0 !important;
 }
 
+.carousel {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+.carousel::after {
+  content: "";
+  flex: 0 0 1rem;
+}
+
 .social__links {
   margin: 2rem 0;
   display: flex;
@@ -123,7 +133,7 @@ body {
 
 .section__header {
   max-width: 90%;
-  margin: 1rem;
+  margin: 2.5rem;
 }
 .section__header h2 {
   color: #471AA0;
@@ -146,6 +156,34 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   max-height: 50rem;
+}
+.homepage .locations .carousel {
+  margin-left: 2rem;
+  gap: 3rem;
+}
+.homepage .locations .carousel #thailand {
+  background-image: url(../../img/thailand-homeimage.jpeg);
+}
+.homepage .locations .carousel #laos {
+  background-image: url(../../img/laos-homeimage.jpeg);
+}
+.homepage .locations .carousel #aus {
+  background-image: url(../../img/aus-homeimage.jpeg);
+}
+.homepage .locations .carousel--item {
+  border-radius: 25%;
+  height: 55rem;
+  min-width: 35rem;
+  max-width: 95%;
+  width: 400rem;
+  border-radius: 1.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.homepage .equipment img {
+  height: 20rem;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
