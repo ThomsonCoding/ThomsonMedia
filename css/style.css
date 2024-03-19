@@ -173,9 +173,9 @@ body {
 .homepage .locations .carousel--item {
   border-radius: 25%;
   height: 55rem;
+  width: 90%;
   min-width: 35rem;
-  max-width: 95%;
-  width: 400rem;
+  max-width: 10rem;
   border-radius: 1.5rem;
   background-size: cover;
   background-position: center;
