@@ -1,0 +1,18 @@
+.hero {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h6 {
+        background-color: white;
+        font-size: 1.7rem;
+        margin: 0 3rem;
+        padding: 2rem;
+        font-family: italiana;
+        font-weight: 500;
+        font-style: italic;
+        max-width: 50rem;
+    }
+}

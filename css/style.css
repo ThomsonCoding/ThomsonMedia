@@ -1,1 +1,151 @@
-*,*::after,*::before{margin:0;padding:0;box-sizing:inherit}html{font-size:56.25%;overflow:hidden;height:100%;background-color:#f7f7f7}body{box-sizing:border-box;height:100%;max-width:1350px;margin:0 auto;overflow:auto;background-color:#fff}::-moz-selection{background-color:#005b96;color:#fff}::selection{background-color:#005b96;color:#fff}::-webkit-scrollbar{display:none}li,a{list-style:none;text-decoration:none;color:inherit}.visually-hidden{display:none}body{font-family:"Lato", sans-serif;font-weight:400;line-height:1.7}.no-scroll{overflow:hidden}.u-margin-bottom-small{margin-bottom:1.5rem !important}.u-margin-top-bottom-small{margin:1.5rem 0 !important}.u-margin-bottom-medium{margin-bottom:2.5rem !important}.u-margin-top-bottom-medium{margin:2.5rem 0 !important}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 56.25%;
+  overflow: hidden;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  overflow: auto;
+  background-color: #fff;
+}
+
+::selection {
+  background-color: #005b96;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-top-bottom-small {
+  margin: 1.5rem 0 !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 2.5rem !important;
+}
+
+.u-margin-top-bottom-medium {
+  margin: 2.5rem 0 !important;
+}
+
+.social__links {
+  margin: 2rem 0;
+  display: flex;
+  gap: 3rem;
+}
+.social__links a {
+  height: 4rem;
+  width: 4rem;
+}
+.social__links a img {
+  height: 100%;
+  width: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__logo {
+  width: 30rem;
+  height: 30rem;
+}
+.header__logo img {
+  height: 100%;
+  width: auto;
+}
+.header .navigation {
+  display: flex;
+  gap: 3rem;
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  max-width: 90%;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h6 {
+  background-color: white;
+  font-size: 1.7rem;
+  margin: 0 3rem;
+  padding: 2rem;
+  font-family: italiana;
+  font-weight: 500;
+  font-style: italic;
+  max-width: 50rem;
+}
+
+.section__header {
+  max-width: 90%;
+  margin: 1rem;
+}
+.section__header h2 {
+  color: #471AA0;
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+.section__header h3 {
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+.section__header p {
+  color: #777;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.homepage .hero {
+  background-image: url(../../img/thailand-homeimage.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  max-height: 50rem;
+}
+
+/*# sourceMappingURL=style.css.map */

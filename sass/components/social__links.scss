@@ -1,0 +1,15 @@
+.social__links { 
+    margin: 2rem 0;
+    display: flex;
+    gap: 3rem;
+
+    a {
+        height: 4rem;
+        width: 4rem;
+
+        img {
+            height: 100%; 
+            width: auto;
+        }
+    }
+}
