@@ -1,0 +1,19 @@
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 2rem;
+
+    div {
+        background-color: turquoise;
+
+        .social__links {
+            justify-content: center;
+        }
+    }
+
+    form {
+        display: flex;  
+        flex-direction: column;
+    }
+}

@@ -94,9 +94,31 @@
         </section>
 
         <section class="contact__form" id="contact">
+            <div>
+                <h3>LETS CHAT!</h3>
+                <p>Whether you have a question, want to start a project, or simply want to connect</p>
+                <p>Feel free to send me a message in the contact form.</p>
+                <ul class="social__links">
+                    <a><img src="img/instagramIcon.png"></a>
+                    <a><img src="img/youtube.png"></a>
+                    <a><img src="img/linkedIn.png"></a>
+                </ul>
+            </div>
 
+            <form id="contact-us__form">
+                <h6>Have a question? &#128640;</h6>
+                <p>Pop us a message and we'll be in touch</p>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="question" placeholder="Your question..." required></textarea>
+                <button id="getInTouch" class="btn btn--tertiary-light btn--contact-us" type="submit">GET IN TOUCH</button>
+            </form>
         </section>
+
+        <p class="footer--copyrights"><a href="https://www.linkedin.com/in/djthomson1" target="_blank">&copy; 2024, Daniel Thomson</a></p>
         
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="module" src="js/getInTouch.js"></script>
         <script type="module" src="js/index.js"></script>
     </body>
 </html>
