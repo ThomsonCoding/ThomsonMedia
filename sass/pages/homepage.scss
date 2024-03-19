@@ -15,14 +15,50 @@
 
             #thailand {
                 background-image: url(../img/thailand-homeimage.jpeg);
+
+                .red {
+                    color: #A51931;
+                }
+
+                .white {
+                    color: #F4F5F8;
+                }
+
+                .blue {
+                    color: #2D2A4A;
+                }
             }
 
             #laos {
                 background-image: url(../img/laos-homeimage.jpeg);
+
+                .red {
+                    color: #A51931;
+                }
+
+                .white {
+                    color: #F4F5F8;
+                }
+
+                .blue {
+                    color: #2D2A4A;
+                }
             }
 
             #aus {
                 background-image: url(../img/aus-homeimage.jpeg);
+
+                .red {
+                    color: #FF0000;
+                }
+
+                .white {
+                    color: #F4F5F8;
+                }
+
+                .blue {
+                    color: #00008B;
+                }
             }
 
             &--item {
@@ -41,8 +77,10 @@
                 margin: 2rem;
                 padding: .5rem 2rem;
                 font-size: 2.5rem;
-                background-color: rgba(69,69,69,0.4);
+                font-weight: 700;
+                background-color: rgba(69,69,69,0.6);
                 border-radius: 2.5rem;
+                letter-spacing: .1rem;
                 width: fit-content;
                 height: max-content;
             }

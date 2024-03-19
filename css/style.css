@@ -164,11 +164,38 @@ body {
 .homepage .locations .carousel #thailand {
   background-image: url(../img/thailand-homeimage.jpeg);
 }
+.homepage .locations .carousel #thailand .red {
+  color: #A51931;
+}
+.homepage .locations .carousel #thailand .white {
+  color: #F4F5F8;
+}
+.homepage .locations .carousel #thailand .blue {
+  color: #2D2A4A;
+}
 .homepage .locations .carousel #laos {
   background-image: url(../img/laos-homeimage.jpeg);
 }
+.homepage .locations .carousel #laos .red {
+  color: #A51931;
+}
+.homepage .locations .carousel #laos .white {
+  color: #F4F5F8;
+}
+.homepage .locations .carousel #laos .blue {
+  color: #2D2A4A;
+}
 .homepage .locations .carousel #aus {
   background-image: url(../img/aus-homeimage.jpeg);
+}
+.homepage .locations .carousel #aus .red {
+  color: #FF0000;
+}
+.homepage .locations .carousel #aus .white {
+  color: #F4F5F8;
+}
+.homepage .locations .carousel #aus .blue {
+  color: #00008B;
 }
 .homepage .locations .carousel--item {
   border-radius: 25%;
@@ -185,8 +212,10 @@ body {
   margin: 2rem;
   padding: 0.5rem 2rem;
   font-size: 2.5rem;
-  background-color: rgba(69, 69, 69, 0.4);
+  font-weight: 700;
+  background-color: rgba(69, 69, 69, 0.6);
   border-radius: 2.5rem;
+  letter-spacing: 0.1rem;
   width: fit-content;
   height: max-content;
 }
