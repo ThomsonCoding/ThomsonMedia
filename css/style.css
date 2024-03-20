@@ -240,7 +240,7 @@ body {
   text-decoration: none;
 }
 .contact__form form input:focus {
-  border-bottom: solid 2px #30c8c9;
+  border: solid 2px #30c8c9;
 }
 .contact__form form textarea {
   min-height: 15rem;
