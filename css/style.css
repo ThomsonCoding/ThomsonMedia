@@ -113,15 +113,21 @@ body {
   .carousel--button {
     display: block;
     background: #fff;
+    color: #777;
     width: 4.5rem;
     height: 4.5rem;
     font-size: 2.5rem;
-    border: 1px solid #ccc;
-    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.0196078431);
+    font-weight: 300;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     border-radius: 50%;
+    padding: 1rem;
   }
   .carousel--button:first-of-type {
     margin-left: auto;
+  }
+  .carousel--button:hover {
+    background-color: #f7f7f7;
   }
 }
 
@@ -140,6 +146,9 @@ body {
   height: 100%;
   width: auto;
   transition: all 0.3s ease;
+}
+.social__links a .fab:hover {
+  transform: scale(1.15);
 }
 .social__links a .fa-instagram:hover {
   color: #cd486b;
@@ -251,6 +260,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 100%;
 }
 .header__logo {
   width: 30rem;
@@ -266,6 +276,24 @@ body {
   margin: 2rem 0;
   font-size: 1.4rem;
   max-width: 90%;
+}
+@media only screen and (min-width: 30em) {
+  .header .navigation {
+    gap: 4rem;
+    letter-spacing: 0.3rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+}
+.header .navigation li {
+  padding: 1rem;
+}
+.header .navigation li {
+  transition: font-size 0.2s;
+}
+.header .navigation li:hover {
+  color: blueviolet;
+  transform: scale(1.15);
 }
 
 .hero {
