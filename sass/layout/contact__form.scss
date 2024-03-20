@@ -2,10 +2,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1rem 2rem;
+    margin: 1rem 0rem;
+    width: 100%;
+
+    > * {
+        padding: 3rem;
+    }
+
+    @include respond(mini-tablet) { 
+        flex-direction: row;
+
+        > * {
+            max-width: 50%;
+        }
+    }
 
     div {
-        background-color: turquoise;
+        background-color: #00BCD4;
+        color: white;
+        width: 100%;
+
+        h3 {
+            font-size: 5rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 2.5rem;
+            margin: 4rem auto;
+            width: 100%;
+            max-width: 40rem;
+        }
 
         .social__links {
             justify-content: center;
@@ -13,7 +40,63 @@
     }
 
     form {
-        display: flex;  
+        display: flex;
         flex-direction: column;
+        padding: 2rem 2rem;
+        max-width: 50rem;
+        width: 80vw;
+        margin: 2rem auto;
+        background-color: $color-white;
+        text-align: center;
+
+        h6 {
+            font-size: 5rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+        @include respond(above-mobile) { 
+            max-width: 35rem;
+        }
+
+        & > input, & > textarea {
+            margin: 1rem 0;
+            padding: 1rem;
+            border: solid 1px $color-grey-dark;
+        }
+
+        input {
+            border: none;
+            border: solid 1px $color-grey-dark;
+            padding: 1rem;
+
+            &input {
+                text-decoration: none;
+            }
+
+            &:focus {
+                border-bottom: solid 2px $color-tertiary-light;
+            }
+        }
+
+        textarea {
+            min-height: 15rem;
+            padding: 1rem;
+
+            &:focus {
+                border: solid 2px $color-tertiary-light;
+            }
+        }
+    }
+
+    .btn {
+        min-width: fit-content;
+        max-width: 20rem;
+        max-height: 6rem;
+        padding: 1.5rem 2rem;
+        margin: 2rem auto;
+        border-radius: 2.5rem;
     }
 }

@@ -1,0 +1,21 @@
+.btn {
+    width: 100%;
+    white-space: nowrap; // Prevents the text from wrapping onto two lines
+    overflow: hidden; // Hides any text that goes beyond the button's width
+    text-align: center;
+    font-size: 100%;
+    color: inherit;
+    font-size: 140%;
+    cursor: pointer;
+
+    &--tertiary-light {
+        background-color: $color-tertiary-light;
+        color: $color-white;
+        border: none;
+
+        &:hover {
+            background-color: $color-tertiary-dark;
+            color: $color-secondary-light;
+        }
+    }
+}

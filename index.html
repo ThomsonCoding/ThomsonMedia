@@ -22,12 +22,12 @@
         
         <title>THOMSON TRAVELS &mdash; HOME PAGE</title>
     </head>
-    <body class="homepage">
+    <body class="homepage" id="body">
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-1234567"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
-        <header class="header">
+        <header class="header" id="header">
             <a class="header__logo" href="index.html">
                 <img src="img/logo_transparent.png">
             </a>
@@ -106,16 +106,19 @@
             </div>
 
             <form id="contact-us__form">
-                <h6>Have a question? &#128640;</h6>
-                <p>Pop us a message and we'll be in touch</p>
+                <h6>Contact</h6>
+                <p>Pop me a message and I'll be in touch &#128640;</p>
                 <input type="text" name="name" placeholder="Name" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <textarea name="question" placeholder="Your question..." required></textarea>
-                <button id="getInTouch" class="btn btn--tertiary-light btn--contact-us" type="submit">GET IN TOUCH</button>
+                <button id="getInTouch" class="btn btn--tertiary-light btn--contact-us" type="submit">SUBMIT</button>
             </form>
         </section>
 
-        <p class="footer--copyrights"><a href="https://www.linkedin.com/in/djthomson1" target="_blank">&copy; 2024, Daniel Thomson</a></p>
+        <footer class="footer">
+            <p class="footer__backtotop"><a href="#header">BACK TO TOP</a></p>
+            <p class="footer__copyrights"><a href="https://www.linkedin.com/in/djthomson1" target="_blank">&copy; 2024, Daniel Thomson</a></p>
+        </footer>
         
         <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
         <script type="module" src="js/getInTouch.js"></script>

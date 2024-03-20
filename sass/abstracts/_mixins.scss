@@ -1,0 +1,77 @@
+// MEDIA QUERY MANAGER
+
+/*
+This is used to center the position of items throughout the site, reduciing the code due to its reusablity. 
+*/
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin shortBorder {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    margin: 2rem 0;
+    border-bottom: 1px solid $color-grey-dark;
+}
+
+@mixin respond($breakpoint) {
+    @if $breakpoint ==only-mobile {
+        @media only screen and (max-width: 30em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint ==only-mobile-and-tablet {
+        @media only screen and (max-width: 63.9em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint ==only-tablet {
+        @media only screen and (min-width: 31em) and (max-width: 63.9em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint ==above-mobile {
+        @media (min-width: 31em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint ==big-phone {
+        @media only screen and (min-width: 24em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint ==mini-tablet {
+        @media only screen and (min-width: 30em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint ==tablet {
+        @media only screen and (min-width: 36.5em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint ==desktop {
+        @media only screen and (min-width: 63.9em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint ==big-desktop {
+        @media only screen and (min-width: 112.5em) {
+            @content;
+        }
+    }
+}
