@@ -46,9 +46,9 @@ class Carousel {
 
 // Usage
 document.addEventListener("DOMContentLoaded", function() {
-    const sections = document.querySelectorAll('section'); // Select all sections
+    const sections = document.querySelectorAll('section');  
     sections.forEach(section => {
-        const carousel = section.querySelector('.carousel'); // Check if the section contains a carousel
+        const carousel = section.querySelector('.carousel');  
         if (carousel) {
             const myCarousel = new Carousel(`#${section.id}`);
         }
