@@ -49,6 +49,10 @@ body {
   margin: 0 auto;
   overflow: auto;
   background-color: $color-white;
+
+  & > section {
+    padding: 3rem 0;
+  }
 }
 
 ::selection {

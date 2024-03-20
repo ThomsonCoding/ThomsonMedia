@@ -24,6 +24,9 @@ body {
   overflow: auto;
   background-color: #fff;
 }
+body > section {
+  padding: 3rem 0;
+}
 
 ::selection {
   background-color: #005b96;
@@ -275,7 +278,7 @@ body {
 }
 .header .navigation {
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
   margin: 2rem 0;
   font-size: 1.4rem;
   max-width: 90%;
