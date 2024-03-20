@@ -255,6 +255,27 @@ body {
 .contact__form .btn:hover {
   transform: scale(1.05);
 }
+.contact__form .social__links {
+  gap: 2.5rem;
+}
+.contact__form .social__links a {
+  color: black;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 50%;
+}
+.contact__form .fa-instagram {
+  color: #cd486b;
+  font-size: 2.2rem;
+}
+.contact__form .fa-linkedin {
+  color: #0077B5;
+  font-size: 2.2rem;
+}
+.contact__form .fa-youtube {
+  color: #FF0000;
+  font-size: 2rem;
+}
 
 .footer > p {
   text-align: center;
@@ -410,7 +431,7 @@ body {
   height: max-content;
 }
 .homepage .equipment img {
-  height: 20rem;
+  height: 15rem;
   width: auto;
 }
 .homepage .equipment .carousel {

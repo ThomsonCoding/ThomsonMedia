@@ -104,4 +104,30 @@
             transform: scale(1.05);
         }
     }
+
+    .social__links {
+        gap: 2.5rem;
+
+        a {
+            color: black;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 50%;
+        }
+    }
+
+    .fa-instagram {
+            color: #cd486b;
+            font-size: 2.2rem;
+    }
+
+    .fa-linkedin {
+            color: #0077B5;
+            font-size: 2.2rem;
+    }
+
+    .fa-youtube {
+            color: #FF0000;
+            font-size: 2rem;
+    }
 }
