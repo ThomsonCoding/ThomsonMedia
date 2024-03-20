@@ -128,15 +128,27 @@ body {
 .social__links {
   margin: 2rem 0;
   display: flex;
-  gap: 3rem;
+  gap: 5rem;
 }
 .social__links a {
-  height: 4rem;
-  width: 4rem;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.social__links a img {
+.social__links a .fab {
   height: 100%;
   width: auto;
+  transition: all 0.3s ease;
+}
+.social__links a .fa-instagram:hover {
+  color: #cd486b;
+}
+.social__links a .fa-linkedin:hover {
+  color: #0077B5;
+}
+.social__links a .fa-youtube:hover {
+  color: #FF0000;
 }
 
 .contact__form {
@@ -275,7 +287,7 @@ body {
 }
 
 .section__header {
-  max-width: 90%;
+  max-width: 95%;
   margin: 2.5rem;
 }
 .section__header h2 {
