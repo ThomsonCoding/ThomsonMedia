@@ -8,4 +8,30 @@
         flex: 0 0 1rem;
     }
 
+    &--navigation {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    &--button {
+        display: none;
+
+        @include respond(desktop) {  
+            display: block;
+            background: #fff;
+            width: 4.5rem;
+            height: 4.5rem;
+            font-size: 2.5rem;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 17px #00000005;
+            border-radius: 50%;
+
+            &:first-of-type {
+                margin-left: auto;
+            }
+        }    
+    }
+
 }

@@ -100,6 +100,30 @@ body {
   content: "";
   flex: 0 0 1rem;
 }
+.carousel--navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+.carousel--button {
+  display: none;
+}
+@media only screen and (min-width: 63.9em) {
+  .carousel--button {
+    display: block;
+    background: #fff;
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 2.5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.0196078431);
+    border-radius: 50%;
+  }
+  .carousel--button:first-of-type {
+    margin-left: auto;
+  }
+}
 
 .social__links {
   margin: 2rem 0;
@@ -326,6 +350,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: inline-block;
 }
 .homepage .locations .carousel h3 {
   margin: 2rem;
