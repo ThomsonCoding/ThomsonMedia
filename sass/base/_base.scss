@@ -71,6 +71,11 @@ a {
   color: inherit;
 }
 
+textarea:focus, input:focus{
+  outline: none;
+  touch-action: manipulation;
+}
+
 .visually-hidden {
   display: none;
 }
