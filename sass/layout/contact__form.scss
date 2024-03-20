@@ -99,5 +99,9 @@
         padding: 1.5rem 2rem;
         margin: 2rem auto;
         border-radius: 2.5rem;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 }
