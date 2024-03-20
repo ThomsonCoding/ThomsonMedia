@@ -4,6 +4,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    & > div {
+        background-color: white;
+        font-size: 1.7rem;
+        margin: 0 3rem;
+        padding: 2rem;
+        font-family: italiana;
+        font-weight: 500;
+        font-style: italic;
+        max-width: 50rem;
+    }
+
+    h1 {
+        border-top: 1px dotted #000; // Adjust size and color as needed
+        border-bottom: 1px dotted #000; // Adjust size and color as needed
+        width: fit-content;
+        margin: 0 auto;
+    }
 
     h6 {
         background-color: white;

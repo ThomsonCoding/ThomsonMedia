@@ -334,6 +334,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.hero > div {
+  background-color: white;
+  font-size: 1.7rem;
+  margin: 0 3rem;
+  padding: 2rem;
+  font-family: italiana;
+  font-weight: 500;
+  font-style: italic;
+  max-width: 50rem;
+}
+.hero h1 {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000;
+  width: fit-content;
+  margin: 0 auto;
 }
 .hero h6 {
   background-color: white;
