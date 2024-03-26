@@ -139,6 +139,95 @@ body {
   }
 }
 
+.main__video {
+  display: block;
+  margin: 5rem auto 2rem auto;
+  width: 560px;
+  height: 315px;
+}
+@media screen and (max-width: 560px) {
+  .main__video {
+    width: 100%;
+    height: calc((100vw - 32px) * 9 / 16); /* 16:9 aspect ratio */
+  }
+}
+@media screen and (min-width: 561px) and (max-width: 960px) {
+  .main__video {
+    width: 560px;
+    height: 315px; /* Maintain aspect ratio for larger screens */
+  }
+}
+@media screen and (min-width: 961px) {
+  .main__video {
+    width: 854px;
+    height: 480px; /* 16:9 aspect ratio for larger screens */
+  }
+}
+
+.mini__locations .carousel {
+  padding-left: 2rem;
+  gap: 3rem;
+}
+.mini__locations .carousel #thailand {
+  background-image: url(../img/thailand-homeimage.jpeg);
+}
+.mini__locations .carousel #thailand .red {
+  color: #A51931;
+}
+.mini__locations .carousel #thailand .white {
+  color: #F4F5F8;
+}
+.mini__locations .carousel #thailand .blue {
+  color: #2D2A4A;
+}
+.mini__locations .carousel #laos {
+  background-image: url(../img/laos-homeimage.jpeg);
+}
+.mini__locations .carousel #laos .red {
+  color: #A51931;
+}
+.mini__locations .carousel #laos .white {
+  color: #F4F5F8;
+}
+.mini__locations .carousel #laos .blue {
+  color: #2D2A4A;
+}
+.mini__locations .carousel #aus {
+  background-image: url(../img/aus-homeimage.jpeg);
+}
+.mini__locations .carousel #aus .red {
+  color: #FF0000;
+}
+.mini__locations .carousel #aus .white {
+  color: #F4F5F8;
+}
+.mini__locations .carousel #aus .blue {
+  color: #00008B;
+}
+.mini__locations .carousel--item {
+  border-radius: 25%;
+  height: 35rem;
+  width: 90%;
+  min-width: 35rem;
+  max-width: 10rem;
+  border-radius: 1.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.mini__locations .carousel h3 {
+  margin: 2rem;
+  padding: 0.5rem 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background-color: rgba(69, 69, 69, 0.6);
+  border-radius: 2.5rem;
+  letter-spacing: 0.1rem;
+  width: fit-content;
+  height: max-content;
+}
+
 .social__links {
   margin: 2rem 0;
   display: flex;
@@ -261,25 +350,30 @@ body {
   transform: scale(1.05);
 }
 .contact__form .social__links {
-  gap: 2.5rem;
+  gap: 3rem;
 }
 .contact__form .social__links a {
   color: black;
   background-color: white;
-  padding: 2rem;
+  padding: 2.5rem;
   border-radius: 50%;
+  max-width: 8rem;
+}
+.contact__form .social__links a i {
+  display: flex;
+  align-items: center;
 }
 .contact__form .fa-instagram {
   color: #cd486b;
-  font-size: 2.2rem;
+  font-size: 3rem;
 }
 .contact__form .fa-linkedin {
   color: #0077B5;
-  font-size: 2.2rem;
+  font-size: 3rem;
 }
 .contact__form .fa-youtube {
   color: #FF0000;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .footer > p {
@@ -460,6 +554,30 @@ body {
 .homepage .equipment .carousel {
   gap: 3rem;
   padding-left: 2rem;
+}
+
+.thailand .hero {
+  background-image: url(../img/thailand-homeimage.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  max-height: 50rem;
+}
+
+.laos .hero {
+  background-image: url(../img/laos-homeimage.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  max-height: 50rem;
+}
+
+.aus .hero {
+  background-image: url(../img/aus-homeimage.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  max-height: 50rem;
 }
 
 /*# sourceMappingURL=style.css.map */

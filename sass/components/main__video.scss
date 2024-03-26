@@ -1,0 +1,21 @@
+.main__video {
+    display: block;
+    margin: 5rem auto 2rem auto;
+    width: 560px; 
+    height: 315px; 
+
+    @media screen and (max-width: 560px) {
+        width: 100%;
+        height: calc((100vw - 32px) * 9 / 16); /* 16:9 aspect ratio */
+    }
+
+    @media screen and (min-width: 561px) and (max-width: 960px) {
+        width: 560px;
+        height: 315px; /* Maintain aspect ratio for larger screens */
+    }
+
+    @media screen and (min-width: 961px) {
+        width: 854px;
+        height: 480px; /* 16:9 aspect ratio for larger screens */
+    }
+}
