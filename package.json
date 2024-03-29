@@ -1,7 +1,7 @@
 {
     "name": "thomsonmedia",
     "version": "2.0.0",
-    "description": "My second Thomson Media, which will be used to promote employment and freelancing.",
+    "description": "Thomson Travels is a platform to put my travel videos and suggestions on",
     "main": "index.js",
     "type": "module",
     "scripts": {

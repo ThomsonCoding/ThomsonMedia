@@ -1,5 +1,4 @@
-.food__locations {
-
+.activities {
     .carousel {
         margin: 2.5rem 0;
         padding: 1rem 0 1rem 2rem;
@@ -16,25 +15,15 @@
             background-position: center; 
             background-repeat: no-repeat;  
             display: inline-block;
-            padding: 2rem;
             border-radius: 0.4rem;
-            -webkit-border-radius: 4px;
-            -moz-border-radius: 4px;
-            -moz-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
-            -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
-            background: #fff;
-            background: -webkit-linear-gradient(top left, #fff, #f0f0ea);
-            background: -o-linear-gradient(top left, #fff, #f0f0ea);
-            background: -moz-linear-gradient(top left, #fff, #f0f0ea);
-            background: linear-gradient(top left, #fff, #f0f0ea);
         }
 
         img {
-            height: 30rem;
-            width: auto;
+            height: auto;
+            width: 100%;
             display: flex;
             margin: 0 auto;
+            border-radius: 2.5rem;
         }
 
         h4 {
@@ -44,7 +33,8 @@
 
         h5 {
             margin: 1rem 1rem 1rem 0;
-            font-size: 2.5rem;
+            font-size: 2rem;
+            font-weight: 300;
         }
 
         a {
@@ -53,12 +43,7 @@
 
         p {
             font-size: 1.6rem;
-        }
-
-        .price__holder {
-            display: flex;
-            align-content: center;
-            align-items: center;
+            font-weight: 300;
         }
     }
 

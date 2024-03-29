@@ -79,6 +79,48 @@ body {
   margin: 2.5rem 0 !important;
 }
 
+.activities .carousel {
+  margin: 2.5rem 0;
+  padding: 1rem 0 1rem 2rem;
+  gap: 3rem;
+}
+.activities .carousel--item {
+  border-radius: 25%;
+  height: fit-content;
+  width: 90%;
+  min-width: 35rem;
+  max-width: 10rem;
+  border-radius: 1.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  border-radius: 0.4rem;
+}
+.activities .carousel img {
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 2.5rem;
+}
+.activities .carousel h4 {
+  margin: 1rem 1rem 1rem 0;
+  font-size: 3rem;
+}
+.activities .carousel h5 {
+  margin: 1rem 1rem 1rem 0;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.activities .carousel a {
+  color: blueviolet;
+}
+.activities .carousel p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
 .btn {
   width: 100%;
   white-space: nowrap;
@@ -184,6 +226,9 @@ body {
 }
 .food__locations .carousel a {
   color: blueviolet;
+}
+.food__locations .carousel p {
+  font-size: 1.6rem;
 }
 .food__locations .carousel .price__holder {
   display: flex;
