@@ -49,6 +49,12 @@
         a {
             color: blueviolet;
         }
+
+        .price__holder {
+            display: flex;
+            align-content: center;
+            align-items: center;
+        }
     }
 
 }

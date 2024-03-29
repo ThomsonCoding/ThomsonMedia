@@ -184,6 +184,11 @@ body {
 .food__locations .carousel a {
   color: blueviolet;
 }
+.food__locations .carousel .price__holder {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
 
 .main__video {
   display: block;
