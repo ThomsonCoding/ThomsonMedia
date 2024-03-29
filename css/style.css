@@ -141,7 +141,7 @@ body {
 
 .food__locations .carousel {
   margin: 2.5rem 0;
-  padding-left: 2rem;
+  padding: 1rem 0 1rem 2rem;
   gap: 3rem;
 }
 .food__locations .carousel--item {
